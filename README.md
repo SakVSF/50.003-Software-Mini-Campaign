@@ -12,4 +12,5 @@ Please find the following in the __compare__ folder
 2. __sample_output.csv__ : csv file storing mismatches. CompareCSV.java writes to this file
 3. __samplefile_1.csv, samplefile_2.csv, samplefile_3.csv__ : csv files read by CompareCSV.java
 
-To run the files and view desired output, simply run CompareCSV.java. The output can be viewed in sample_output.csv. 
+To run the files and view desired output, simply run CompareCSV.java. Make sure that the csv files are in the same folder as CompareCSV.java.
+The output can be viewed in sample_output.csv. 
