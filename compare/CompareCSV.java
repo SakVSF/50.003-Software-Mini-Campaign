@@ -6,7 +6,7 @@ public class CompareCSV {
     public static void main(String args[]) throws FileNotFoundException, IOException
     {
         
-        String file1="sample_file_1.csv";
+        String file1="sample_file_1.csv";   //please change file name if you wish to test a different file
         String file2="sample_file_3.csv";
         String file3="sample_output.csv";
     
