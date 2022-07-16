@@ -17,3 +17,7 @@ B> Please find the following in the __compare__ folder :
 
    To run the files and view desired output, simply run CompareCSV.java. Make sure that the csv files are in the same folder as CompareCSV.java.
    The output can be viewed in __sample_output.csv__. 
+
+### Week 9 Submission
+
+Please find the report for Equivalence Class and Boundary Value Analysis under the __Week 9__ folder.
