@@ -11,10 +11,12 @@ import java.io.FileReader;
 import java.io.InputStream;
 
 import org.junit.Test;
-//system level testing for boundary values 
+//system level testing for boundary values
+//explanation found in README.md
+
 public class SystemTest {
-    String root_folder = "C:/Users/Saakshi Saraf/OneDrive/Documents/SUTD/ESC/compare/src/"; 
-   
+    String root_folder = "C:/Users/Saakshi Saraf/OneDrive/Documents/SUTD/ESC/compare/src/";  //please change path to your directory while running
+    
 
    
     @Test

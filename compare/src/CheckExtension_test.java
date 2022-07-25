@@ -9,13 +9,12 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
-//This java test class checks whether the output file has the corrrect extension.
-//Expected to return a IllegalArgument exception.
+//This java test class checks if check_extension() returns false if wrong extension/no extension strings are passed 
 
 @RunWith(Parameterized.class)
 public class CheckExtension_test {
 
-    String root_folder= "C:/Users/Saakshi Saraf/OneDrive/Documents/SUTD/ESC/compare/src/"; 
+    String root_folder= "C:/Users/Saakshi Saraf/OneDrive/Documents/SUTD/ESC/compare/src/";  //please change path to your directory while running
     String file1;
     String file2;
 
