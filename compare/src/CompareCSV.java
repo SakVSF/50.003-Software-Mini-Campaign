@@ -2,7 +2,7 @@ import java.io.*;
 
 
 public class CompareCSV {
-    static String root_folder = "C:/Users/Saakshi Saraf/OneDrive/Documents/SUTD/ESC/compare/src/";
+    static String root_folder = "C:/Users/Saakshi Saraf/OneDrive/Documents/SUTD/ESC/compare/src/";  //please change path to your directory while running
 
 
 
