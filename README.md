@@ -31,7 +31,9 @@ A> Navigate to __compare/src/CompareCSV.java__
 
 CompareCSV.java contains the updated code that takes in 2 file names and writes to sample_output.csv if any exceptions found. 
 
-TESTS
+TESTS 
+
+__NOTE__ : please change the location of root_folder variable used inside the test class to your directory before testing
 
 B> Navigate to __compare/src/CheckEmpty.java__ : This is a unit test that tests the __check_empty_string()__ function of CompareCSV class. The tests included are parametrized. Running the test checks that if empty string(s) are passed to __check_empty_string()__, the function returns true.
 
