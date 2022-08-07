@@ -11,20 +11,19 @@ import java.io.FileReader;
 import java.io.InputStream;
 
 import org.junit.Test;
-//system level testing for boundary values
-//explanation found in README.md
-
+//system level testing for boundary values 
 public class SystemTest {
-    String root_folder = "C:/Users/Saakshi Saraf/OneDrive/Documents/SUTD/ESC/compare/src/";  //please change path to your directory while running
-    
+    String root_folder = "C:/Users/Saakshi Saraf/OneDrive/Documents/SUTD/ESC/compare/src/"; 
+   
 
    
     @Test
     public void testEmpty(){
         String file1="sample_file_1.csv";
         String file2="";
+        String combo = "0,1,2";
         try{
-            int a = CompareCSV.compare(file1, file2, true);
+            int a = Compare_updated.compare(file1, file2, combo,true);
             assertTrue(a==1);
         }
         catch(Exception e){
@@ -41,8 +40,9 @@ public class SystemTest {
     public void testNotFound(){
         String file1="sample_file_1.csv";
         String file2="file_not_in_folder.csv";
+        String combo = "0,1,2";
         try{
-            assertEquals(CompareCSV.compare(file1, file2, true), 1);
+            assertEquals(Compare_updated.compare(file1, file2, combo, true), 1);
             
         }
         catch(Exception e){
@@ -59,8 +59,9 @@ public class SystemTest {
     public void testWrongExtension(){
         String file1="./src/wrong_extension.docx";
         String file2="./src/sample_file_2.csv";
+        String combo = "0,1,2";
         try{
-            assertEquals(CompareCSV.compare(file1, file2, true), 1);
+            assertEquals(Compare_updated.compare(file1, file2, combo, true), 1);
             
         }
         catch(Exception e){
@@ -77,8 +78,9 @@ public class SystemTest {
     public void testBoundary_1row(){
         String file1= root_folder + "row1_samplefile.csv";
         String file2= root_folder + "sample_file_2.csv";
+        String combo = "0,1,2";
         try{
-            assertTrue(CompareCSV.compare(file1, file2, true)==0);
+            assertTrue(Compare_updated.compare(file1, file2, combo, true)==0);
             
         }
         catch(Exception e){
@@ -96,8 +98,9 @@ public class SystemTest {
     public void testBoundary_1col(){
         String file1=root_folder + "1col_samplefile.csv";
         String file2=root_folder + "sample_file_2.csv";
+        String combo = "0,1,2";
         try{
-            assertEquals(CompareCSV.compare(file1, file2, true), 1);
+            assertEquals(Compare_updated.compare(file1, file2, combo, true), 1);
             
         }
         catch(Exception e){
@@ -115,8 +118,9 @@ public class SystemTest {
     public void testBoundary_6col(){
         String file1=root_folder + "6col_samplefile.csv";
         String file2=root_folder+ "sample_file_2.csv";
+        String combo = "0,1,2";
         try{
-            assertEquals(CompareCSV.compare(file1, file2, true), 1);
+            assertEquals(Compare_updated.compare(file1, file2, combo, true), 1);
             
         }
         catch(Exception e){
@@ -133,8 +137,9 @@ public class SystemTest {
     public void testBoundary_1001rows(){
         String file1=root_folder + "1001rows_sample.csv";
         String file2=root_folder + "1001rows_sample.csv";
+        String combo = "0,1,2";
         try{
-            assertEquals(CompareCSV.compare(file1, file2, true), 1);
+            assertEquals(Compare_updated.compare(file1, file2, combo, true), 1);
             
         }
         catch(Exception e){
@@ -152,9 +157,10 @@ public class SystemTest {
     public void  CorrectOutput(){
         String file1=root_folder + "sample_file_1.csv";
         String file2=root_folder+ "sample_file_3.csv";
+        String combo = "0,1,2";
         
         try{
-            assertEquals(CompareCSV.compare(file1, file2, true), 0);
+            assertEquals(Compare_updated.compare(file1, file2, combo, true), 0);
             
         }
         catch(Exception e){
@@ -171,9 +177,10 @@ public class SystemTest {
         String file1=root_folder + "sample_file_1.csv";
         String file2=root_folder+ "sample_file_1.csv";
         String output= root_folder + "sample_output.csv";
+        String combo = "0,1,2";
         
         try{
-            int a = CompareCSV.compare(file1, file2, true); 
+            int a = Compare_updated.compare(file1, file2, combo, true); 
             BufferedReader CSVFile1 = new BufferedReader(new FileReader(output)); 
             String dataRow1 = CSVFile1.readLine(); 
             String[] line1 = dataRow1.split(",");
@@ -197,9 +204,10 @@ public class SystemTest {
         String file1=root_folder + "sample_file_1.csv";
         String file2=root_folder+ "sample_file_2.csv";
         String output= root_folder + "sample_output.csv";
+        String combo = "0,1,2";
         
         try {
-        int a = CompareCSV.compare(file1, file2, true); 
+        int a = Compare_updated.compare(file1, file2, combo, true); 
         assertTrue(a==0);
         InputStream is = new BufferedInputStream(new FileInputStream(output));
         byte[] c = new byte[1024];
