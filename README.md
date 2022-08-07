@@ -4,30 +4,15 @@
 ## ID   : 1005380
 
 ### About
-This repository contains submissions for the Software Mini Campaign for the module 50.003 : Elements of Software Construction  
+This repository contains submissions for the Software Mini Campaign for the module 50.003 : Elements of Software Construction.
 
-### Note to Testers (Week12)
+__To testers: Please navigate to __/compare__ to find instructions about code.__
 
-Please navigate to __/compare__ to find instructions about code.
 
-### Week 8 Submission
+### Week 12 Submission: Fuzzing 
 
-A> Please find the use case diagram (with misuse case appended) under __Use-case diagram.jpg__ .
-
-B> Please find the following in the __compare/src__ folder :
-1. __CompareCSV.java__ : source code that takes in 2 csv files and stores mismatches found (balance, currency, type, etc.) in sample_output.csv
-
-2. __sample_output.csv__ : csv file storing mismatches. CompareCSV.java writes to this file
-
-3. __samplefile_1.csv, samplefile_2.csv, samplefile_3.csv__ : csv files read by CompareCSV.java
-
-   To run the files and view desired output, simply run CompareCSV.java. Make sure that the csv files are in the same folder as CompareCSV.java.
-   The output can be viewed in __sample_output.csv__. 
-
-### Week 9 Submission
-
-Please find the report for Equivalence Class and Boundary Value Analysis under the __Week 9__ folder.
-
+Fuzzing code can be found in __/compare/src/SimplefuzzTest.java__
+Updated Source code in /compare/src/Compare_updated.java
 
 ### Week 10 Submission
 
@@ -70,5 +55,22 @@ This also contains tests to check if valid inputs give valid outputs:
       
       3. CorrectOutput() - valid input gives valid output
       
+### Week 9 Submission
 
+Please find the report for Equivalence Class and Boundary Value Analysis under the __Week 9__ folder.
+
+
+### Week 8 Submission
+
+A> Please find the use case diagram (with misuse case appended) under __Use-case diagram.jpg__ .
+
+B> Please find the following in the __compare/src__ folder :
+1. __CompareCSV.java__ : source code that takes in 2 csv files and stores mismatches found (balance, currency, type, etc.) in sample_output.csv
+
+2. __sample_output.csv__ : csv file storing mismatches. CompareCSV.java writes to this file
+
+3. __samplefile_1.csv, samplefile_2.csv, samplefile_3.csv__ : csv files read by CompareCSV.java
+
+   To run the files and view desired output, simply run CompareCSV.java. Make sure that the csv files are in the same folder as CompareCSV.java.
+   The output can be viewed in __sample_output.csv__. 
 
