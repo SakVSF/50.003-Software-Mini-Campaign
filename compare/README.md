@@ -14,7 +14,7 @@ Compare_updated class has 3 functions :
         - returns true if both Strings have a .csv extension, returns false otherwise
 
 
-How to run? go to main() function of Compare_updated.java > pass in the necessary arguments into compare()  > run Compare_updated.java 
+How to run? go to main() function of Compare_updated.java > pass in the necessary arguments into compare()  > run Compare_updated.java  > view output in __sample_output.csv__
 
 ### Note 
 Change the path of "root_folder" defined in the class to your directory before running the source code or any of the test files 
