@@ -6,6 +6,10 @@
 ### About
 This repository contains submissions for the Software Mini Campaign for the module 50.003 : Elements of Software Construction  
 
+### Note to Testers (Week12)
+
+Please navigate to __/compare__ to find instructions about code.
+
 ### Week 8 Submission
 
 A> Please find the use case diagram (with misuse case appended) under __Use-case diagram.jpg__ .
