@@ -9,10 +9,19 @@ This repository contains submissions for the Software Mini Campaign for the modu
 __To testers: Please navigate to __/compare__ to find instructions about code.__
 
 
+### Week 13 Submission: Third party implementation
+
+Please navigate to __/Week 13 Third Party Implementation__
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+
 ### Week 12 Submission: Fuzzing 
 
 Fuzzing code can be found in __/compare/src/SimplefuzzTest.java__
 Updated Source code in /compare/src/Compare_updated.java
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
 
 ### Week 10 Submission
 
@@ -54,11 +63,15 @@ This also contains tests to check if valid inputs give valid outputs:
       2. EmptyOutput() - same file given for both inputs gives empty output file since no mismatch
       
       3. CorrectOutput() - valid input gives valid output
-      
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
 ### Week 9 Submission
 
 Please find the report for Equivalence Class and Boundary Value Analysis under the __Week 9__ folder.
 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
 ### Week 8 Submission
 
