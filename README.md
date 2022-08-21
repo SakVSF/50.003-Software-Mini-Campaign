@@ -12,6 +12,7 @@ __To testers: Please navigate to __/compare__ to find instructions about code.__
 ### Week 13 Submission: Third party implementation
 
 Please navigate to __/Week 13 Third Party Implementation__
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
 
